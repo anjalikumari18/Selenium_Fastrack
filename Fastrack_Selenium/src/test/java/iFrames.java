@@ -15,8 +15,6 @@ public class iFrames {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://qa-automation-practi"
 				+ "ce.netlify.app/iframe");
-				//Using name or id
-		//driver.switchTo().frame("iframe-checkboxes");
 		
 		//Creating webelement
 		WebElement iframe = driver.findElement(By.xpath("//iframe[@src=\"assets/iframe-redirect-page.html\"]"));
