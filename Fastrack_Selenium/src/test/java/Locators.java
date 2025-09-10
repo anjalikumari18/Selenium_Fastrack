@@ -14,13 +14,7 @@ public class Locators {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.cssSelector("input[data-val-required=\"Email is required.\"]")).sendKeys("abc");
 		driver.findElement(By.xpath("//input[@data-val-length=\"The password should have at least 6 characters.\"]")).sendKeys("Password");
-		//driver.findElement(By.partialLinkText("Digital ")).click();
-		
-		/*
-		driver.findElement(By.id("FirstName")).sendKeys("Anjali");
-		driver.findElement(By.name("LastName")).sendKeys("Singh");
-		driver.findElement(By.id("gender-female")).click();
-		*/
+		//driver.findElement(By.partialLinkText("Digital ")).click()
 		
 	}
 
